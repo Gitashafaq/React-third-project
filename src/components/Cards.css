@@ -1,0 +1,116 @@
+/* card */
+.Card-Container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Card{
+    width: 23%;
+    border-radius: 16px;
+    border: 1px solid var(--Gary);
+    overflow: hidden;
+}
+.Card-Top{
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+
+}
+.Card .A1{
+    position: absolute;
+    padding: 3px 8px;
+    background-color: var(--LightGreen);
+    font-size: .8em;
+    color: var(--black);
+    top:10px;
+    left: 10px;
+    border-radius: 20px;
+}
+.Card .A2{
+    position: absolute;
+    padding: 3px 8px;
+    background-color: var(--LightPurple);
+    font-size: .8em;
+    color: var(--black);
+    top:10px;
+    left: 70px;
+    border-radius: 20px;
+}
+.Card .A1:hover{
+    background-color: var(--Green);
+    color: var(--white);
+}
+.Card .A2:hover{
+    background-color: var(--MainColor);
+    color: var(--white);
+}
+.Card-Middle,.Card-Bottom{
+    padding: 20px;
+
+}
+.Card .Card-Top img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.Card-Middle .Card-Details{
+    display: flex;
+    align-items: center;
+}
+.Card-Middle .Author{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.Author img{
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+    object-position: top;
+
+}
+ .Card-Middle h4{
+    margin-top: 20px;
+ }
+.Card-Middle .Card-Details a{
+    font-size: .8em;
+}
+.Card-Bottom {
+    display: flex;
+    gap: 0 5px;
+    }
+.Card-Bottom span{
+    background-color: var(--lightGary);
+    border-radius: 20px;
+    margin: 5px 15px;
+    font-size: .8em;
+}
+.Card-Bottom span i{
+    margin-right: 5px;
+}
+
+.Card-Bottom .Share{
+   margin-left: auto;
+    }
+
+    .Pagination{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .Pagination a{
+
+        background-color: var(--MainColor);
+        border-radius: 30px;
+        color: var(--white);
+        padding: 10px 15px;
+
+    }
+/* card end */

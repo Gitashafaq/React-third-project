@@ -1,0 +1,35 @@
+/* Categrory Section  */
+
+.Categrory{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .Categrory ul {
+       list-style-type: none;
+    }
+    .Categrory ul li {
+       display: inline;
+    }
+    .Categrory ul li a{
+       margin: 0px 5px;
+       padding: 10px 20px;
+       border-radius: 30px;
+       
+    }
+    .Categrory ul li a:hover{
+       background-color: var(--lightGary);
+    }
+    .Categrory ul li a.Active{
+
+       background-color: var(--Green);
+       color: var(--white);
+    }
+    .Categrory .Cat-Right select{
+       padding: 10px 18px;
+       border-radius: 30px;
+       border: 1px solid var(--Gary);
+       outline: none;
+   }
+/* Category section End */

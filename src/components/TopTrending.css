@@ -1,0 +1,55 @@
+/* top trending */
+.Top-Trending{
+    background-color: var(--lightGary);
+    padding: 80px 0px;
+    border-radius: 20px;
+}
+.section{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h1{
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+.section p{
+    font-size: 1.3em;
+    color: var(--Gary);
+}
+.Top-Trending .Card-Top{
+    width: 80px;
+    height: 80px;
+   border-radius: 50%;
+   margin: 0 auto;
+   margin-top: 30px;
+   overflow: hidden;
+}
+.Top-Trending .Card-Top img{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.Top-Trending .Card{
+     position: relative;
+     background-color: var(--white);
+     border: 1px solid var(--lightGary);
+     width: 18%;
+     }
+     .Top-Trending .Card .A2{
+        left: 10px;
+    }
+.Top-Trending .Card-Middle {
+    text-align: center;
+    padding-top: 0PX;
+}
+.Top-Trending .Card-Middle h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+.Top-Trending .Card-Middle p{
+    color: var(--Gary);
+}
+/* top trending End */

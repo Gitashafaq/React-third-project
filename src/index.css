@@ -1,0 +1,42 @@
+
+ /* This is google font  */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+body{font-family: 'Roboto', sans-serif;}
+/* Variables Start here */
+/* ----------------------------- */
+:root{
+    --MainColor:#4338ca;
+    --Green:#124e48;
+    --Pink:#fee2e2;
+    --LightPurple:#f3e8fe;
+    --LightGreen:#dcfce7;
+    --black:black;
+    --lightGary:#F3F4F6;
+    --white:white;
+    --Gary:rgb(154, 150, 150);
+    --Blue:#1778F2;
+    --LightBlue:#1DA1F2;
+    --LightRed:#F00075;
+    --Purple:#6440A4;
+
+}
+/* ----------------------------- */
+/* Variables Ends here */
+
+a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+.Container-Full{ width: 100%;}
+.Container{ 
+  width: 1200px;
+  margin: 0 auto;
+        }
+
+        
